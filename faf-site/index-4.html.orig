@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=""  />
+    <meta name="keywords" content="" />
+    
+    <title>Aikra - The Ultimate Multipurpose Template</title>
+    
+    <!-- Favicon --> 
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+    <!-- google web fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700,800,800italic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- ######### CSS STYLES ######### -->
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    
+    <!-- font icons -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/simpleline-icons/css/simple-line-icons.css" media="screen" />
+    <link rel="stylesheet" href="css/et-linefont/etlinefont.css">
+    
+    <!-- animations -->
+    <link href="js/animations/css/animations.min.css" rel="stylesheet" type="text/css" media="all" />
+    
+    <!-- responsive devices styles -->
+	<link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
+    
+    <!-- mega navigation menu -->
+    <link rel="stylesheet" href="js/megamenu/stylesheets/screen.css">
+    
+    <!-- masterslider -->
+    <link rel="stylesheet" href="js/masterslider/style/masterslider.css" />
+ 	<link href="js/masterslider/skins/default/style.css" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="js/masterslider/style/style.css">
+	
+    <link href='js/masterslider/ms-tablet-style.css' rel='stylesheet' type='text/css'>
+    <link href='js/masterslider/ms-partialview.css' rel='stylesheet' type='text/css'>
+    
+    <!-- cubeportfolio -->
+    <link rel="stylesheet" type="text/css" href="js/cubeportfolio/css/cubeportfolio.min.css">
+    
+    <!-- horizontal slider -->
+    <link rel="stylesheet" href="js/hslider/style.css">
+    
+    <link rel="stylesheet" href="js/sheetslider/sheet.css">
+    
+    <!-- owl carousel -->
+    <link rel='stylesheet' type='text/css' href='js/owlcarousel/assets/owl.carousel.css' />
+    
+    <link rel="stylesheet" type="text/css" href="js/lightslider/lightslider.min.css">
+    
+    <!-- image hover effects -->
+	<link rel="stylesheet" type="text/css" href="js/imgheffects/set1.css" />
+    
+    <!-- tabs -->
+    <link rel='stylesheet' type='text/css' href='js/tabs/one/opentabby.css' />
+     
+</head>
+<body>
+<div class="site-wrapper">
+
+<nav class="header-section absotule pin-style">
+<div class="container">
+  <div class="mod-menu">
+    <div class="row">
+      <div class="col-sm-2"> <a href="index.html" title="" class="logo"> <img src="images/logo-white.png" alt=""> </a> </div>
+      <div class="col-sm-10 nopadding">
+        <div class="main-nav rightnav">
+          <ul class="nav navbar-nav top-nav">
+            <li class="visible-xs menu-icon"> <a href="javascript:void(0)" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false"> <i aria-hidden="true" class="fa fa-bars"></i> </a> </li>
+          </ul>
+          <div id="menu" class="collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"> <a href="#">HOME</a> <span class="arrow"></span>
+                <ul class="dm-align-2">
+                  <li><a href="index.html">Home Demo 1</a></li>
+                  <li><a href="index-2.html">Home Demo 2</a></li>
+                  <li><a href="index-3.html">Home Demo 3</a></li>
+                  <li><a href="index-4.html">Home Demo 4</a></li>
+                  <li><a href="index-5.html">Home Demo 5</a></li>
+               	</ul>
+              </li>
+              <li> <a href="about.html">PAGES</a> <span class="arrow"></span>
+                <ul class="dm-align-2">
+                  <li> <a href="about.html">ABOUT <span class="sub-arrow dark right"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> <span class="arrow"></span>
+                    <ul>
+                      <li> <a href="about.html">Style 1</a> </li>
+                      <li> <a href="about-2.html">Style 2</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a href="services.html">SERVICES <span class="sub-arrow dark right"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> <span class="arrow"></span>
+                    <ul>
+                      <li> <a href="services.html">Style 1</a> </li>
+                      <li> <a href="services-2.html">Style 2</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a href="team.html">TEAM <span class="sub-arrow dark right"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> <span class="arrow"></span>
+                    <ul>
+                      <li> <a href="team.html">Style 1</a> </li>
+                      <li> <a href="team-2.html">Style 2</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a href="contact.html">CONTACT <span class="sub-arrow dark right"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> <span class="arrow"></span>
+                    <ul>
+                      <li> <a href="contact.html">Style 1</a> </li>
+                      <li> <a href="contact-2.html">Style 2</a> </li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </li>
+              <li> <a href="works-full-flat.html">WORKS</a> <span class="arrow"></span>
+                <ul class="dm-align-2">
+                  <li> <a href="works-full-flat.html">FULL WIDTH <span class="sub-arrow dark right"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> <span class="arrow"></span>
+                    <ul>
+                      <li> <a href="works-full-flat.html">Flat</a> </li>
+                      <li> <a href="works-full-grid.html">Grid</a> </li>
+                      <li> <a href="works-full-masonry.html">Masonry</a> </li>
+                      <li> <a href="works-full-filtering.html">Filtering</a> </li>
+                      <li> <a href="works-full-images.html">Images</a> </li>
+                      <li> <a href="works-full-videos.html">Videos</a> </li>
+                      <li> <a href="works-full-carousel.html">Carousel</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a href="works-box-flat.html">BOXED <span class="sub-arrow dark right"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> <span class="arrow"></span>
+                    <ul>
+                      <li> <a href="works-box-flat.html">Flat</a> </li>
+                      <li> <a href="works-box-grid.html">Grid</a> </li>
+                      <li> <a href="works-box-masonry.html">Masonry</a> </li>
+                      <li> <a href="works-box-filtering.html">Filtering</a> </li>
+                      <li> <a href="works-box-images.html">Images</a> </li>
+                      <li> <a href="works-box-videos.html">Videos</a> </li>
+                      <li> <a href="works-box-carousel.html">Carousel</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a href="works-side-flat.html">SIDEBAR <span class="sub-arrow dark right"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> <span class="arrow"></span>
+                    <ul>
+                      <li> <a href="works-side-flat.html">Flat</a> </li>
+                      <li> <a href="works-side-grid.html">Grid</a> </li>
+                      <li> <a href="works-side-masonry.html">Masonry</a> </li>
+                      <li> <a href="works-side-filtering.html">Filtering</a> </li>
+                      <li> <a href="works-side-images.html">Images</a> </li>
+                      <li> <a href="works-side-videos.html">Videos</a> </li>
+                      <li> <a href="works-side-carousel.html">Carousel</a> </li>
+                    </ul>
+                  </li>
+                   
+                </ul>
+              </li>
+              <li class="mega-menu"> <a href="accordions.html">ELEMENTS</a> <span class="arrow"></span>
+                <ul>
+                  <li> <span class="subtitle">Shortcodes 1</span> <span class="arrow"></span>
+                    <ul>
+                      <li><a href="accordions.html"><i class="fa fa-plus-circle"></i> &nbsp;Accordions</a> </li>
+                      <li><a href="image-hover.html"><i class="fa fa-picture-o"></i> &nbsp;Image Hovers</a> </li>
+                      <li><a href="buttons.html"><i class="fa fa-bars"></i> &nbsp;Button Styles</a> </li>
+                      <li><a href="call-to-action.html"><i class="fa fa-external-link-square"></i> &nbsp;Call to Action</a> </li>
+                      <li><a href="carousel-sliders.html"><i class="fa fa-eye"></i> &nbsp;Carousel Sliders</a> </li>
+                      <li><a href="maps.html"><i class="fa fa-map-marker"></i> &nbsp;Google Maps</a> </li>
+                      <li><a href="headings.html"><i class="fa fa-font"></i> &nbsp;Heading Styles</a> </li>
+                      <li><a href="isotope.html"><i class="fa fa-object-ungroup"></i> &nbsp;Isotope Grid</a> </li>
+                    </ul>
+                  </li>
+                  <li> <span class="subtitle">Shortcodes 2</span> <span class="arrow"></span>
+                    <ul>
+                      <li><a href="columns.html"><i class="fa fa-leaf"></i> &nbsp;Columns</a> </li>
+                      <li><a href="lists.html"><i class="fa fa-list"></i> &nbsp;lists Styles</a> </li>
+                      <li><a href="message-boxes.html"><i class="fa fa-tags"></i> &nbsp;Message Boxes</a> </li>
+                      <li><a href="parallax-backgrounds.html"><i class="fa fa-cloud"></i> &nbsp;Parallax Backgrounds</a> </li>
+                      <li><a href="pricing-tables.html"><i class="fa fa-rocket"></i> &nbsp;Pricing Tables</a> </li>
+                      <li><a href="team-members.html"><i class="fa fa-users"></i> &nbsp;Team Members</a> </li>
+                      <li><a href="works-full-images.html"><i class="fa fa-play-circle"></i> &nbsp;Media Gallery</a> </li>
+                      <li><a href="products.html"><i class="fa fa-shopping-bag"></i> &nbsp;Products</a> </li>
+                    </ul>
+                  </li>
+                  <li> <span class="subtitle">Shortcodes 3</span> <span class="arrow"></span>
+                    <ul>
+                      <li><a href="tabs.html"><i class="fa fa-qrcode"></i> &nbsp;Tabs</a> </li>
+                      <li><a href="typography.html"><i class="fa fa-font"></i> &nbsp;Typography</a> </li>
+                      <li><a href="content-boxes.html"><i class="fa fa-flag"></i> &nbsp;Content Boxes</a> </li>
+                      <li><a href="popup.html"><i class="fa fa-table"></i> &nbsp;Popups</a> </li>
+                      <li><a href="social-icons.html"><i class="fa fa-twitter"></i> &nbsp;Social Icons</a> </li>
+                      <li><a href="testimonials.html"><i class="fa fa-comments-o"></i> &nbsp;Testimonials</a> </li>
+                      <li><a href="blockquotes.html"><i class="fa fa-quote-left"></i> &nbsp;Blockquotes</a> </li>
+                      <li><a href="blog-carousel.html"><i class="fa fa-commenting-o"></i> &nbsp;Blog Carousel</a> </li>
+                    </ul>
+                  </li>
+                  <li> <span class="subtitle">Shortcode 4</span> <span class="arrow"></span>
+                    <ul>
+                      <li><a href="icon-boxes.html"><i class="fa fa-pencil-square"></i> &nbsp;Icon Boxes</a> </li>
+                      <li><a href="faqs.html"><i class="fa fa-user"></i> &nbsp;FAQs</a> </li>
+                      <li><a href="latest-posts.html"><i class="fa fa-thumbs-up"></i> &nbsp;Latest Posts</a> </li>
+                      <li><a href="dividers.html"><i class="fa fa-file-text"></i> &nbsp;Dividers</a> </li>
+                      <li><a href="pies.html"><i class="fa fa-external-link"></i> &nbsp;Pies &amp; Skills</a> </li>
+                      <li><a href="tables.html"><i class="fa fa-table"></i> &nbsp;Tables</a> </li>
+                      <li><a href="video.html"><i class="fa fa-play"></i> &nbsp;Video</a> </li>
+                      <li><a href="coming-soon.html"><i class="fa fa-play"></i> &nbsp;Coming Soon</a> </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li> <a href="blog-grid.html">BLOG</a> <span class="arrow"></span>
+                <ul class="dm-align-2">
+                  <li> <a href="blog-grid.html">Blog Grid</a> </li>
+                  <li> <a href="blog-standard.html">Blog Standard</a> </li>
+                  <li> <a href="blog-classic.html">Blog Classic</a> </li>
+                  <li> <a href="blog-timeline.html">Blog Timeline</a> </li>
+                  <li> <a href="blog-sidebar.html">Blog Sidebar</a> </li>
+                  <li> <a href="blog-big-text.html">Blog Big Text</a> </li>
+                  <li> <a href="blog-carousel.html">Blog Carousel</a> </li>
+                  
+                </ul>
+              </li>
+
+              <li> <a href="contact.html" title="contact">CONTACT</a></li>
+              
+              <li class="rightbut">
+				<a href="#" class="mbutton3">Buy Now!</a>
+			  </li>
+              
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+<!-- end navigation -->
+
+<div class="clearfix"></div>
+
+<!-- slider -->
+<div>
+<div class="master-slider ms-skin-default" id="masterslider">
+
+    <!-- new slide -->
+    <div class="ms-slide slide-1 bg-color-zblack" data-delay="5">
+    	
+        <!-- slide background -->
+        <img src="js/masterslider/blank.gif" data-src="images/slider/08.jpg" alt="" class="" />
+        
+		<h3 class="ms-layer white hps-title9 font-weight4"
+			style="left: 115px; top: 290px;"
+			data-type="text"
+            data-effect="bottom(30)"
+            data-delay="300"
+            data-duration="500"
+            data-ease="easeOutExpo"
+		>
+			Everything you needs to build
+		</h3>
+		
+        <h3 class="ms-layer white caps hps-title6 font-weight8 letter-spacing2"
+			style="left: 110px; top: 338px;"
+			data-type="text"
+            data-effect="bottom(30)"
+            data-delay="500"
+            data-duration="500"
+            data-ease="easeOutExpo"
+		>
+			Awesome Website
+		</h3>
+
+        <h3 class="ms-layer white line-height3 hps-title4 font-weight4"
+			style="left: 110px; top: 432px;"
+			data-type="text"
+            data-effect="bottom(30)"
+            data-delay="700"
+            data-duration="500"
+            data-ease="easeOutExpo"
+		>
+			Lorem Ipsum as their default model text, and a search for lorem ipsum <br />will uncover many web sites still in their infancy. Various versions have <br />evolved over the years.
+		</h3>
+        
+        <a href="#" class="ms-layer caps slider-button1 blue"
+			style="left: 110px; top: 550px;"
+			data-type="text"
+            data-effect="bottom(30)"
+            data-delay="1000"
+            data-duration="500"
+            data-ease="easeOutExpo"
+		>
+			Get Started &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i>
+		</a>
+        
+    </div>
+    <!-- end of slide -->
+	
+    <!-- new slide -->
+    <div class="ms-slide slide-2 bg-color-zblack" data-delay="5">
+    	
+        <!-- slide background -->
+        <img src="js/masterslider/blank.gif" data-src="images/slider/09.jpg" alt="" class="opacity2" />
+        
+        <h1 class="ms-layer white caps center font-weight7 hps-title1"
+			style="top: 290px;"
+			data-type="text"
+            data-delay="300"
+		 	data-duration="900"
+		 	data-ease="easeOutExpo"
+		 	data-effect="scalefrom(1,1.3,0,50)"
+		>
+			create easy
+		</h1>
+        
+        <h1 class="ms-layer white caps center font-weight7 hps-title1"
+			style="top: 375px;"
+			data-type="text"
+            data-delay="500"
+		 	data-duration="900"
+		 	data-ease="easeOutExpo"
+		 	data-effect="scalefrom(1,1.3,0,50)"
+		>
+			websites & apps
+		</h1>
+        
+        <h2 class="ms-layer white center font-weight4 hps-title4 line-height2"
+			style="top: 470px;"
+			data-type="text"
+            data-delay="500"
+		 	data-duration="900"
+		 	data-ease="easeOutExpo"
+		 	data-effect="scalefrom(1,1.3,0,50)"
+		>
+			Choose from different layouts and templates on a page by page <br />basis or start creating a whole new layout.
+		</h2>
+		
+        <div class="ms-layer"
+			style="left: 620px; top: 560px;"
+			data-type="text"
+            data-delay="800"
+		 	data-duration="900"
+		 	data-ease="easeOutExpo"
+		 	data-effect="bottom(50)"
+		>
+            <a href="#" class="button button--pipaluk button--inverted button--text-thick button--text-upper">Read more</a>
+		</div>
+        
+    </div>
+    <!-- end of slide -->
+    	
+    <!-- video -->
+    <div class="ms-slide" data-delay="10">
+    	
+        <h1 class="ms-layer white caps center font-weight7 hps-title5"
+			style="top: 270px;"
+			data-type="text"
+            data-delay="300"
+		 	data-duration="900"
+		 	data-ease="easeOutExpo"
+		 	data-effect="scalefrom(1,1.3,0,50)"
+		>
+			Background
+		</h1>
+        
+        <h1 class="ms-layer white caps center font-weight7 hps-title5"
+			style="top: 375px;"
+			data-type="text"
+            data-delay="300"
+		 	data-duration="900"
+		 	data-ease="easeOutExpo"
+		 	data-effect="scalefrom(1,1.3,0,50)"
+		>
+			HD Videos
+		</h1>
+        
+        <h2 class="ms-layer white center font-weight4 hps-title7 line-height2"
+			style="top: 490px;"
+			data-type="text"
+            data-delay="500"
+		 	data-duration="900"
+		 	data-ease="easeOutExpo"
+		 	data-effect="scalefrom(1,1.3,0,50)"
+		>
+			Choose from different layouts and templates on a page by page <br />basis or start creating a whole new layout.
+		</h2>
+        
+        <video data-autopause="false" data-mute="true" data-loop="true" data-fill-mode="fill">
+            <source src="images/slider/Working-Space.mp4" type="video/mp4"/>
+            <source src="images/slider/video.webm" type="video/webm"/>
+            <source src="images/slider/video/video.ogv" type="video/ogg"/>
+        </video>
+    
+    </div>
+    
+    
+    
+</div>
+</div>
+<!-- end of slider -->
+
+<div class="clearfix"></div>
+
+<section class="bg-color-sitecolor padding-top-bottom4">
+<div class="row nopadding">
+<div class="container">
+
+    <div class="col-md-4">
+        <h6 class="white caps font-weight4 margin-bottom2">Designs &amp; Technology</h6>
+        <h3 class="white font-weight7 line-height1 margin-bottom3">Sentence structures to generate lorem which look reasonab genera for alway specmen book has no only five typeset combined with a handful of model sentence structures.</h3>
+        <div class="line-hover2 bg-color-white left"></div>
+        <div class="clearfix margin-bottom3"></div>
+    </div><!-- end col -->
+    
+    <div class="col-md-4 col-sm-4 animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="400">
+		<img src="images/site-img285.jpg" alt="" class="respoimg margin-bottom3">
+        <h5 class="white caps font-weight7">Success your Business</h5>
+        <p class="white margin-top">First true generator on the Internet it overmore model sentence structures to generate therefore free.</p>
+    </div><!-- end col -->
+    
+    <div class="col-md-4 col-sm-4 animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="600">
+		<img src="images/site-img286.jpg" alt="" class="respoimg margin-bottom3">
+        <h5 class="white caps font-weight7">Power Packed Websites</h5>
+        <p class="white margin-top">First true generator on the Internet it overmore model sentence structures to generate therefore free.</p>
+    </div><!-- end col -->
+
+</div>
+</div>
+</section><!-- end section -->
+
+<div class="clearfix"></div>
+
+<section class="background-image55">
+<div class="container">
+<div class="row nopadding">
+
+    <div class="less5 text-center margin-bottom5">
+    	<h2 class="big2 font-weight3 margin-bottom2">Always combining form with function, my practice finds its ground in simplicity.</h2>
+        <h6 class="font-weight4 line-height4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</h6>
+    </div><!-- end col -->
+    
+    <div class="less5 text-center">
+    	<div class="col-md-6 nopadding">
+        	<div class="bg-color-white padding-percent2 less9 left hover-shadow11">
+                <h2 class="font-weight3 margin-bottom2">I design meaningful visual identities.</h2>
+                <h6 class="gray4 font-weight4 line-height4">There are many variations of passages of Lorem Ipsum available the alteration in some.</h6>
+            </div>
+        </div>
+        
+        <div class="col-md-6 nopadding">
+        	<div class="bg-color-white padding-percent2 less9 right hover-shadow11">
+                <h2 class="font-weight3 margin-bottom2">Innovative thinking, UI/UX design and development.</h2>
+                <h6 class="gray4 font-weight4 line-height4">There are many variations of passages of Lorem Ipsum available the alteration in some.</h6>
+            </div>
+        </div>
+        
+    </div><!-- end col -->
+    
+</div>
+</div>
+</section><!-- end section -->
+
+<div class="clearfix"></div>
+
+<section class="padding-top-bottom4">
+<div class="container">
+<div class="row nopadding">
+		    
+    <div class="col-md-4 marbo-resp4">
+		<h5 class="font-weight5 line-height4 margin-bottom2">Simply ever since when unknown printer took a galley of type and scrambled it make a type specimen book. It has survived not only five centuries, but also the leap into unchanged.</h5>
+                
+		<h6 class="font-weight3 line-height4">It was popularised in the these with the release of Letraset sheets containing and more recently with desktop publishing software versions of  desktop publishing software like versions.</h6>
+    </div><!-- end col -->
+    
+    <div class="col-md-8">
+        
+        <div class="col-md-6 col-sm-6 col-xs-12 marbo-resp13">
+            <img src="images/site-img270.jpg" alt="" class="respoimg3 radius5 margin-right2 left animate" data-anim-type="zoomIn" data-anim-delay="200">
+            <h6 class="font-weight5 margin-bottom">Creative Direction</h6>
+            <p class="sfont">Web page editors now use their default and a search for will uncove many sites versions the years.</p>
+        </div><!-- end inner col -->
+        
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <img src="images/site-img271.jpg" alt="" class="respoimg3 radius5 margin-right2 left animate" data-anim-type="zoomIn" data-anim-delay="300">
+            <h6 class="font-weight5 margin-bottom">Identity Systems</h6>
+            <p class="sfont">Web page editors now use their default and a search for will uncove many sites versions the years.</p>
+        </div><!-- end inner col -->
+        
+		<p class="clearfix margin-bottom5"></p>
+        
+        <div class="col-md-6 col-sm-6 col-xs-12 marbo-resp13">
+            <img src="images/site-img272.jpg" alt="" class="respoimg3 radius5 margin-right2 left animate" data-anim-type="zoomIn" data-anim-delay="400">
+            <h6 class="font-weight5 margin-bottom">Brand Strategy</h6>
+            <p class="sfont">Web page editors now use their default and a search for will uncove many sites versions the years.</p>
+        </div><!-- end inner col -->
+        
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <img src="images/site-img273.jpg" alt="" class="respoimg3 radius5 margin-right2 left animate" data-anim-type="zoomIn" data-anim-delay="500">
+            <h6 class="font-weight5 margin-bottom">Marketing Strategy</h6>
+            <p class="sfont">Web page editors now use their default and a search for will uncove many sites versions the years.</p>
+        </div><!-- end inner col -->
+        
+		<p class="clearfix margin-bottom5"></p>
+        
+        <div class="col-md-6 col-sm-6 col-xs-12 marbo-resp13">
+            <img src="images/site-img274.jpg" alt="" class="respoimg3 radius5 margin-right2 left animate" data-anim-type="zoomIn" data-anim-delay="600">
+            <h6 class="font-weight5 margin-bottom">Project Success</h6>
+            <p class="sfont">Web page editors now use their default and a search for will uncove many sites versions the years.</p>
+        </div><!-- end inner col -->
+        
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <img src="images/site-img275.jpg" alt="" class="respoimg3 radius5 margin-right2 left animate" data-anim-type="zoomIn" data-anim-delay="700">
+            <h6 class="font-weight5 margin-bottom">User Experience</h6>
+            <p class="sfont">Web page editors now use their default and a search for will uncove many sites versions the years.</p>
+        </div><!-- end inner col -->
+          
+    </div><!-- end col -->
+   
+</div>
+</div>
+</section><!-- end section -->
+
+<div class="clearfix"></div>
+
+<section>
+<div class="container-fulid">
+<div class="row nopadding">
+		
+    <div class="col-md-6 bg-color-sitecolor center nopadding">
+    <div class="padding-percent3">
+    	<div class="circle10 opacity-white10 center hover-zoom"><img src="images/ft-icon-white-10.png" alt="" class="respoimg2 center padding-top2" /></div>
+        <h4 class="font-weight7 white margin-top3 margin-bottom2">Flexibility & Performance</h4>
+        <p class="white opacity7 less5">Five centuries bu also the leap into electronic typesetting remainin essentially unchanged. It was popularised in the with the release passages more recently with desktop publishing software including versions generators on the Internet.</p>
+    </div>        
+    </div>
+    
+    <div class="col-md-6 bg-color-darkgray center nopadding">
+    <div class="padding-percent3">
+    	<div class="circle10 opacity-white10 center hover-zoom"><img src="images/ft-icon-white-8.png" alt="" class="respoimg2 center padding-top3" /></div>
+        <h4 class="font-weight7 white margin-top3 margin-bottom2">Create any Website</h4>
+        <p class="white opacity7 less5">Five centuries bu also the leap into electronic typesetting remainin essentially unchanged. It was popularised in the with the release passages more recently with desktop publishing software including versions generators on the Internet.</p>
+    </div>       
+    </div>
+    
+</div>
+</div>
+</section>
+
+<div class="clearfix"></div>
+
+<section class="parallax18">
+<div class="container">
+<div class="row nopadding">
+	    
+	<div class="less4 text-center margin-bottom5">
+    	<h2 class="big caps white font-weight8 margin-bottom2">Visually Stunning Websites</h2>
+        <hr class="style-three white center min-quarter">
+
+	</div><!-- end col -->
+    
+    <div class="col-md-12">
+          
+        <div class="col-md-4">
+        <div class="col-md-2"><span class="iconet-tablet white iconsize3 margin-bottom2 margin-right2"></span></div>
+        <div class="col-md-10">
+            <h6 class="white font-weight7 margin-bottom">Responsive Tempalte</h6>
+            <p class="white opacity5">web page editors now use Lorem Ipsum as their default model text, and a search versions over the years.</p>
+        </div>
+        </div><!-- end col -->
+        
+        <div class="col-md-4">
+        <div class="col-md-2"><span class="iconet-layers white iconsize3 margin-bottom2 margin-right2"></span></div>
+        <div class="col-md-10">
+            <h6 class="white font-weight7 margin-bottom">Multi Purpose Use</h6>
+            <p class="white opacity5">web page editors now use Lorem Ipsum as their default model text, and a search versions over the years.</p>
+        </div>
+        </div><!-- end col -->
+        
+        <div class="col-md-4">
+        <div class="col-md-2"><span class="iconet-chat white iconsize3 margin-bottom2 margin-right2"></span></div>
+        <div class="col-md-10">
+            <h6 class="white font-weight7 margin-bottom">Excellent Support</h6>
+            <p class="white opacity5">web page editors now use Lorem Ipsum as their default model text, and a search versions over the years.</p>
+        </div>
+        </div><!-- end col -->
+        
+        <div class="clearfix margin-bottom5"></div>
+        
+        <div class="col-md-4">
+        <div class="col-md-2"><span class="iconet-presentation white iconsize3 margin-bottom2 margin-right2"></span></div>
+        <div class="col-md-10">
+            <h6 class="white font-weight7 margin-bottom">Responsive Tempalte</h6>
+            <p class="white opacity5">web page editors now use Lorem Ipsum as their default model text, and a search versions over the years.</p>
+        </div>
+        </div><!-- end col -->
+        
+        <div class="col-md-4">
+        <div class="col-md-2"><span class="iconet-edit white iconsize3 margin-bottom2 margin-right2"></span></div>
+        <div class="col-md-10">
+            <h6 class="white font-weight7 margin-bottom">Multi Purpose Use</h6>
+            <p class="white opacity5">web page editors now use Lorem Ipsum as their default model text, and a search versions over the years.</p>
+        </div>
+        </div><!-- end col -->
+        
+        <div class="col-md-4">
+        <div class="col-md-2"><span class="iconet-megaphone white iconsize3 margin-bottom2 margin-right2"></span></div>
+        <div class="col-md-10">
+            <h6 class="white font-weight7 margin-bottom">Excellent Support</h6>
+            <p class="white opacity5">web page editors now use Lorem Ipsum as their default model text, and a search versions over the years.</p>
+        </div>
+        </div><!-- end col -->
+        
+	
+    </div><!-- end col --> 
+
+</div>
+</div>
+</section><!-- end section -->
+
+<div class="clearfix"></div>
+
+<section class="bg-color2 padding-top-bottom4">
+<div class="container">
+<div class="row nopadding">
+	
+    <div class="col-md-12 text-center margin-bottom3">
+    	<h2 class="big caps font-weight8 margin-bottom2">Latest Blogs</h2>
+        <hr class="style-three gray2 center min-quarter">
+    </div>
+    
+	<div class="col-md-4 marbo-resp3 animate" data-anim-type="fadeIn" data-anim-delay="300">
+    	<a href="#"><img src="images/site-img168.jpg" alt="" class="respoimg" /></a>
+        <div class="padding-percent2 bg-color-white">
+        	<p class="smallfont2 gray2 margin-bottom1">March 18, 2018</p>
+        	<h5 class="font-weight7 margin-bottom"><a href="#">A Global Digital Agency</a></h5>
+            <p>Default model text and a search for lorem will many web sites have the years</p>
+        </div>
+    </div><!-- end col -->
+    
+    <div class="col-md-4 marbo-resp3 animate" data-anim-type="fadeIn" data-anim-delay="400">
+    	<a href="#"><img src="images/site-img169.jpg" alt="" class="respoimg" /></a>
+        <div class="padding-percent2 bg-color-white">
+        	<p class="smallfont2 gray2 margin-bottom1">March 23, 2018</p>
+        	<h5 class="font-weight7 margin-bottom"><a href="#">Undoubtable Source</a></h5>
+            <p>Default model text and a search for lorem will many web sites have the years</p>
+        </div>
+    </div><!-- end col -->
+    
+    <div class="col-md-4 marbo-resp3 animate" data-anim-type="fadeIn" data-anim-delay="500">
+    	<a href="#"><img src="images/site-img170.jpg" alt="" class="respoimg" /></a>
+        <div class="padding-percent2 bg-color-white">
+        	<p class="smallfont2 gray2 margin-bottom1">March 27, 2018</p>
+        	<h5 class="font-weight7 margin-bottom"><a href="#">Looks which Reasonable</a></h5>
+            <p>Default model text and a search for lorem will many web sites have the years</p>
+        </div>
+    </div><!-- end col -->
+
+</div>        
+</div>
+</section><!-- end section -->
+
+
+
+
+
+
+
+<div class="clearfix"></div>
+
+<section class="background-image130 text-center">
+<div class="container">
+<div class="row nopadding">
+	
+	<div class="less4">
+    
+        <div class="owl-carousel two">
+        
+            <div class="item">
+            	<img src="images/people-img55.jpg" alt="" class="radius5 respoimg4 border-all-opacity6 center" />
+            	<h4 class="green caps font-weight7 margin-bottom2 margin-top2"> - Tony Motzfeldt</h4>
+                <h5 class="white font-weight4 line-height3">" Many desktop publishing packages and web page editors now use Lorem Ipsum as handful of model sentence structures, to generate Lorem Ipsum which looks reasonable their default model text and search for will uncover many web sites still in versions have over the years. "</h5>
+            </div><!-- end item slide -->
+            
+            <div class="item">
+            	<img src="images/people-img56.jpg" alt="" class="radius5 respoimg4 border-all-opacity6 center" />
+                <h4 class="green caps font-weight7 margin-bottom2 margin-top2"> - Dylan Lucy</h4>
+                <h5 class="white font-weight4 line-height3">" Many desktop publishing packages and web page editors now use Lorem Ipsum as handful of model sentence structures, to generate Lorem Ipsum which looks reasonable their default model text and search for will uncover many web sites still in versions have over the years. "</h5>
+            </div><!-- end item slide -->
+            
+            <div class="item">
+            	<img src="images/people-img57.jpg" alt="" class="radius5 respoimg4 border-all-opacity6 center" />
+                <h4 class="green caps font-weight7 margin-bottom2 margin-top2"> - Jack Cameron</h4>
+                <h5 class="white font-weight4 line-height3">" Many desktop publishing packages and web page editors now use Lorem Ipsum as handful of model sentence structures, to generate Lorem Ipsum which looks reasonable their default model text and search for will uncover many web sites still in versions have over the years. "</h5>
+            </div><!-- end item slide -->
+        
+        </div>
+
+	</div>
+
+</div>
+</div>
+</section><!-- end section -->
+
+<div class="clearfix"></div>
+
+<section class="padding-top-bottom3 bg-color-sitecolor text-center">
+<div class="container">
+<div class="row">
+
+	<h2 class="big white font-weight3 less5 margin-bottom5">We deliver innovative thinkings and scientific UI/UX creative designs and awesome development.</h2>
+    <div class="clearfix"></div>
+	<div class="button26 text-center"><a href="#">Purchase Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
+
+</div>
+</div>
+</section><!-- end section -->
+
+<div class="clearfix"></div>
+
+<footer class="background-image82">
+<div class="row nopadding">
+    
+    <p class="clearfix margin-bottom8"></p>
+    
+    <div class="container">
+        
+        <div class="col-md-3 col-sm-6 col-xs-12 marbo-resp4">
+            <h6 class="white caps font-weight7 margin-bottom3">Location</h6>
+            <ul class="none valign3 left white opacity3">
+                <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; 2901 Marmora Road, Glassgow, <br />Seattle, WA 98122-1090</li>
+                <li><i class="fa fa-phone"></i>&nbsp; 1 -234 -456 -7890</li>
+                <li><a href="mailto:info@yourdomain.com" class="graylink7"><i class="fa fa-envelope"></i>&nbsp; info@yourdomain.com</a></li>
+            </ul>
+        </div><!-- end col -->
+        
+        <div class="col-md-3 col-sm-6 col-xs-12 marbo-resp4">
+            <h6 class="white caps font-weight7 margin-bottom3">Resources</h6>
+            <ul class="none valign3 left">
+                <li><a href="#" class="graylink7">Unlimited Pages</a></li>
+                <li><a href="#" class="graylink7">Awsome Sliders</a></li>
+                <li><a href="#" class="graylink7">Feature Typography</a></li>
+                <li><a href="#" class="graylink7">Single &amp; Portfolios</a></li>
+                <li><a href="#" class="graylink7">Recent Blog / News</a></li>
+            </ul>
+        </div><!-- end col -->
+        
+        <div class="col-md-3 col-sm-6 col-xs-12 marbo-resp4">
+            <h6 class="white caps font-weight7 margin-bottom3">Company</h6>
+            <ul class="none valign3 left">
+                <li><a href="#" class="graylink7"><i class="fa fa-facebook iconsize14 margin-right1"></i> Facebook</a></li>
+                <li><a href="#" class="graylink7"><i class="fa fa-twitter iconsize14 margin-right1"></i> Twitter</a></li>
+                <li><a href="#" class="graylink7"><i class="fa fa-instagram iconsize14 margin-right1"></i> Instagram</a></li>
+                <li><a href="#" class="graylink7"><i class="fa fa-linkedin iconsize14 margin-right1"></i> Linkedin</a></li>
+                <li><a href="#" class="graylink7"><i class="fa fa-youtube iconsize14 margin-right1"></i> Youtube</a></li>
+            </ul>
+        </div><!-- end col -->
+        
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        
+            <h6 class="white caps font-weight7 margin-bottom3">instagram</h6>
+            
+            <div class="col-md-4 col-sm-4 col-xs-4 nopadding">
+            <a href="https://www.instagram.com/p/BWHuWNyh2NC/?taken-by=envato" target="_blank"><img src="https://scontent-bom1-1.cdninstagram.com/vp/744e73e7cf373a7b34269b22170a5e38/5AE5CE09/t51.2885-15/e35/19623330_315111382275217_7391608183493492736_n.jpg" alt="" class="respoimg" /></a>
+            </div>
+            
+            <div class="col-md-4 col-sm-4 col-xs-4 nopadding">
+            <a href="https://www.instagram.com/p/BWtQZKCByj8/?taken-by=envato" target="_blank"><img src="https://scontent-bom1-1.cdninstagram.com/vp/5dd874b2c1bd5bdc0b5c9f126f92ad67/5B1DF47A/t51.2885-15/e35/20066638_861695097332965_8574085501252796416_n.jpg" alt="" class="respoimg" /></a>
+            </div>
+            
+            <div class="col-md-4 col-sm-4 col-xs-4 nopadding">
+            <a href="https://www.instagram.com/p/BXB3RldBi_d/?taken-by=envato" target="_blank"><img src="https://scontent-bom1-1.cdninstagram.com/vp/65cd9e4b00ffb968359608141616cd62/5B195E16/t51.2885-15/e35/20347494_691090911075995_6697504299812913152_n.jpg" alt="" class="respoimg" /></a>
+            </div>
+            
+            <div class="col-md-4 col-sm-4 col-xs-4 nopadding">
+            <a href="https://www.instagram.com/p/BWwtsvKhGq3/?taken-by=envato" target="_blank"><img src="https://scontent-bom1-1.cdninstagram.com/vp/25018342f787af2c57f56105c1d68444/5B1E33ED/t51.2885-15/e35/19985066_1365815790201342_3687034204467494912_n.jpg" alt="" class="respoimg" /></a>
+            </div>
+            
+            <div class="col-md-4 col-sm-4 col-xs-4 nopadding">
+            <a href="https://www.instagram.com/p/BX2DTgTBo1O/?taken-by=envato" target="_blank"><img src="https://scontent-bom1-1.cdninstagram.com/vp/bdb899f2a5ad20ad40f48baae63cd55c/5AFFFD2A/t51.2885-15/e35/20766988_449648935433635_8063044032944668672_n.jpg" alt="" class="respoimg" /></a>
+            </div>
+            
+            <div class="col-md-4 col-sm-4 col-xs-4 nopadding">
+            <a href="https://www.instagram.com/p/BWejEQKBgfK/?taken-by=envato" target="_blank"><img src="https://scontent-bom1-1.cdninstagram.com/vp/5819879b76ca840e459fc11f0c1a8d59/5B06F1F5/t51.2885-15/e35/19984866_196733110857356_8955799263690883072_n.jpg" alt="" class="respoimg" /></a>
+            </div>
+
+        </div><!-- end col -->
+        
+        <p class="clearfix margin-bottom6"></p>
+        
+        <div class="padding-top3 border-top-opacity2">
+            <img src="images/logo-icon-light.png" alt="" class="left opacity4" /><p class="sfont white opacity2 right">© 2018 aikra.com. All rights reserved.  <a href="#" class="graylink7">Terms of Use</a></p>
+        </div>
+    	
+        <p class="clearfix margin-bottom3"></p>
+        
+    </div>
+    
+</div>
+</footer><!-- end footer -->
+
+
+<a href="#" class="scrollup">Scroll</a><!-- end scroll to top of the page-->
+
+</div>
+
+
+<!-- ######### JS FILES ######### -->
+<!-- get jQuery from the google apis -->
+<script src="js/universal/jquery.js"></script>
+<script src="js/animations/js/animations.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+
+<script src="js/megamenu/js/main.js"></script>
+
+<script src="js/masterslider/masterslider.min.js"></script>
+<script>
+	var slider = new MasterSlider();
+ 
+    // adds Arrows navigation control to the slider.
+     slider.control('arrows');
+     slider.control('bullets');
+ 
+     slider.setup('masterslider' , {
+         width:1400,    // slider standard width
+         height:750,   // slider standard height
+         space:0,
+         layout:'fullwidth',
+         loop:true,
+         preload:0,
+		 speed:45,
+         autoplay:true,
+		 view:'fade'
+    });
+</script>
+
+<script src="js/masterslider/tab.js"></script>
+
+<script src="js/scrolltotop/totop.js"></script>
+
+<script src="js/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script src="js/cubeportfolio/js/main.js"></script>
+
+<script src="js/parallax/parallax.js"></script>
+
+<script src="js/lightslider/lightslider.min.js"></script>
+<script>
+	$('#lightSlider').lightSlider({
+		gallery: true,
+		item: 1,
+		loop: true,
+		slideMargin: 0,
+		thumbItem: 3
+	});
+</script>
+
+<script src='js/tabs/one/opentabby.js'></script>
+<script>
+	// tabs
+	$(".openTabby").openTabby();
+	$(".openTabby2").openTabby2();
+
+</script>
+
+<script src="js/owlcarousel/owl.carousel.js"></script>
+<script src="js/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/owlcarousel/owl-custom.js"></script>
+<script src="js/cform/form-validate.js"></script>
+<script src="js/universal/custom.js"></script>
+<script src="js/aninum/jquery.animateNumber.min.js"></script>
+
+</body>
+</html>
