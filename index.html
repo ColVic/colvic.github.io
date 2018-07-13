@@ -94,33 +94,41 @@
 									</li>
 								</ul>
 								<div id="menu" class="collapse">
-									<ul class="nav navbar-nav">
-										<li class="active">
-											<a href="index.html#">HOME</a>
+									<ul class="nav navbar-nav"> 
+										<li>
+											<a href="#about">ABOUT</a>
 											<span class="arrow"></span>
 										</li>
 										<li>
-											<a href="about.html">PAGES</a>
+											<a href="#experiences">EXPERIENCES</a>
 											<span class="arrow"></span>
 										</li>
 										<li>
-											<a href="works-full-flat.html">WORKS</a>
-											<span class="arrow"></span>
-										</li>
-										<li class="mega-menu">
-											<a href="accordions.html">ELEMENTS</a>
+											<a href="#pbl">PBL</a>
 											<span class="arrow"></span>
 										</li>
 										<li>
-											<a href="blog-grid.html">BLOG</a>
+											<a href="#events">EVENTS</a>
 											<span class="arrow"></span>
-										</li>
-										<li class="rightbut">
-											<a href="contact.html" class="mbutton3" title="contact">CONTACT US</a>
+                    </li>
+                    <li>
+											<a href="#benefits">BENEFITS</a>
+											<span class="arrow"></span>
+                    </li>
+                    <li>
+											<a href="#fafngo">FAF NGO</a>
+											<span class="arrow"></span>
+                    </li>
+                    <li>
+											<a href="#testimonials">TESTIMONIALS</a>
+											<span class="arrow"></span>
+                    </li>
+                    <li>
+											<a href="#partners">PARTNERS</a>
+											<span class="arrow"></span>
 										</li>
 									</ul>
 								</div>
-
 							</div>
 						</div>
 					</div>
@@ -198,7 +206,7 @@
 
 		<div class="clearfix"></div>
 
-		<section class="bg-color-white padding-top-bottom4 text-center">
+		<section class="bg-color-white padding-top-bottom4 text-center" id="about">
 			<div class="container">
 				<div class="row nopadding">
 
@@ -251,7 +259,7 @@
 
 		<div class="clearfix"></div>
 
-		<section class="background-image59">
+		<section class="background-image59" id="experiences">
 			<div class="container">
 				<div class="row nopadding">
 
@@ -312,7 +320,7 @@
 
 		<div class="clearfix"></div>
 
-		<section class="background-image55">
+		<section class="background-image55" id="pbl">
 			<div class="container">
 				<div class="row nopadding">
 
@@ -344,7 +352,7 @@
 
 		<div class="clearfix"></div>
 
-		<section class="bg-color-white padding-top-bottom4">
+		<section class="bg-color-white padding-top-bottom4" id="events">
 			<div class="container-fulid">
 				<div class="row nopadding">
 					<div class="less5">
@@ -458,7 +466,7 @@
 
 		<div class="clearfix"></div>
 
-		<section class="background-image58 padding-top-bottom4 text-center">
+		<section class="background-image58 padding-top-bottom4 text-center" id="benefits">
 			<div class="container">
 				<div class="row nopadding">
 
@@ -527,7 +535,7 @@
 
 		<div class="clearfix"></div>
 
-		<section class="bg-color-darkgray padding-top-bottom4">
+		<section class="bg-color-darkgray padding-top-bottom4" id="statistics">
 			<div class="container">
 				<div class="row nopadding">
 
@@ -585,7 +593,7 @@
 
 		<div class="clearfix"></div>
 
-		<section class="padding-top-bottom4 text-center">
+		<section class="padding-top-bottom4 text-center" id="fafngo">
 			<div class="container">
 				<div class="row nopadding">
 
@@ -696,7 +704,7 @@
 
 		<div class="clearfix"></div>
 
-		<section class="bg-color2 padding-top9 padding-bottom7 text-center">
+		<section class="bg-color2 padding-top9 padding-bottom7 text-center" id="testimonials">
 			<div class="container">
 				<div class="row nopadding">
 
@@ -805,7 +813,7 @@
 
 		<div class="clearfix"></div>
 
-		<div class="padding-top-bottom">
+		<div class="padding-top-bottom" id="partners">
 			<div class="container">
 				<div class="row">
 
@@ -1086,7 +1094,20 @@
 		$(".openTabby").openTabby();
 		$(".openTabby2").openTabby2();
 
-	</script>
+  </script>
+  
+  <script>
+  // For smooth transitions between hash anchors
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+  });
+  </script>
 
 	<script src="js/owlcarousel/owl.carousel.js"></script>
 	<script src="js/owlcarousel/owl.carousel.min.js"></script>
