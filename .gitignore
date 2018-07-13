@@ -6,6 +6,7 @@
 
 
 .DS_Store
+/faf-site/.DS_Store
 /.idea
 *.sublime-project
 *.sublime-workspace
